@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		6E500A3F7C8BB07A89A76211 /* Pods_MVC_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5114FF0C88FE6262ADFE6B6 /* Pods_MVC_IOS.framework */; };
 		C8EDFB6B1FD0147A001F1709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB6A1FD0147A001F1709 /* AppDelegate.swift */; };
-		C8EDFB6D1FD0147A001F1709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB6C1FD0147A001F1709 /* ViewController.swift */; };
 		C8EDFB701FD0147A001F1709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB6E1FD0147A001F1709 /* Main.storyboard */; };
 		C8EDFB7E1FD018A5001F1709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB711FD0147C001F1709 /* Assets.xcassets */; };
 		C8EDFB801FD019B7001F1709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB731FD0147C001F1709 /* LaunchScreen.storyboard */; };
@@ -36,7 +35,6 @@
 		A5114FF0C88FE6262ADFE6B6 /* Pods_MVC_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVC_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EDFB671FD0147A001F1709 /* MVC-IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVC-IOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8EDFB6A1FD0147A001F1709 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C8EDFB6C1FD0147A001F1709 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8EDFB6F1FD0147A001F1709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C8EDFB711FD0147C001F1709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8EDFB741FD0147C001F1709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 			children = (
 				C8EDFB7C1FD0187C001F1709 /* Resources */,
 				C8EDFB7D1FD01883001F1709 /* Source */,
-				C8EDFB6C1FD0147A001F1709 /* ViewController.swift */,
 			);
 			path = "MVC-IOS";
 			sourceTree = "<group>";
@@ -349,7 +346,6 @@
 				C8EDFBA223928519001F1709 /* LoadingView.swift in Sources */,
 				C8EDFB9823928519001F1709 /* RepositoryViewController.swift in Sources */,
 				C8EDFB9323928425001F1709 /* FavoriteViewController.swift in Sources */,
-				C8EDFB6D1FD0147A001F1709 /* ViewController.swift in Sources */,
 				C8EDFB8D1FD01B7D001F1709 /* NSObjectProtocol.extension.swift in Sources */,
 				C8EDFB881FD01B3C001F1709 /* SearchModel.swift in Sources */,
 				C8EDFB6B1FD0147A001F1709 /* AppDelegate.swift in Sources */,
