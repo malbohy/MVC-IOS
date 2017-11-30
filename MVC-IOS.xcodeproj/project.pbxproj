@@ -19,6 +19,9 @@
 		C8EDFB8B1FD01B65001F1709 /* ApiSession.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB8A1FD01B65001F1709 /* ApiSession.extension.swift */; };
 		C8EDFB8D1FD01B7D001F1709 /* NSObjectProtocol.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB8C1FD01B7D001F1709 /* NSObjectProtocol.extension.swift */; };
 		C8EDFB901FD01BA3001F1709 /* UIKeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB8F1FD01BA3001F1709 /* UIKeyboardInfo.swift */; };
+		C8EDFB9323928425001F1709 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB9223928425001F1709 /* FavoriteViewController.swift */; };
+		C8EDFB9523928475001F1709 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB9423928475001F1709 /* FavoriteViewController.xib */; };
+		C8EDFB9823928519001F1709 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB9723928519001F1709 /* RepositoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,9 @@
 		C8EDFB8A1FD01B65001F1709 /* ApiSession.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSession.extension.swift; sourceTree = "<group>"; };
 		C8EDFB8C1FD01B7D001F1709 /* NSObjectProtocol.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocol.extension.swift; sourceTree = "<group>"; };
 		C8EDFB8F1FD01BA3001F1709 /* UIKeyboardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKeyboardInfo.swift; sourceTree = "<group>"; };
+		C8EDFB9223928425001F1709 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		C8EDFB9423928475001F1709 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
+		C8EDFB9723928519001F1709 /* RepositoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +99,6 @@
 				C8EDFB7C1FD0187C001F1709 /* Resources */,
 				C8EDFB7D1FD01883001F1709 /* Source */,
 				C8EDFB6C1FD0147A001F1709 /* ViewController.swift */,
-				C8EDFB6E1FD0147A001F1709 /* Main.storyboard */,
 			);
 			path = "MVC-IOS";
 			sourceTree = "<group>";
@@ -133,6 +138,9 @@
 		C8EDFB821FD01AC8001F1709 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C8EDFB9623928507001F1709 /* Repository */,
+				C8EDFB9123928414001F1709 /* Favorite */,
+				C8EDFB6E1FD0147A001F1709 /* Main.storyboard */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -152,6 +160,23 @@
 				C8EDFB8F1FD01BA3001F1709 /* UIKeyboardInfo.swift */,
 			);
 			path = NotieObserver;
+			sourceTree = "<group>";
+		};
+		C8EDFB9123928414001F1709 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFB9223928425001F1709 /* FavoriteViewController.swift */,
+				C8EDFB9423928475001F1709 /* FavoriteViewController.xib */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		C8EDFB9623928507001F1709 /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFB9723928519001F1709 /* RepositoryViewController.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +241,7 @@
 			files = (
 				C8EDFB801FD019B7001F1709 /* LaunchScreen.storyboard in Resources */,
 				C8EDFB7E1FD018A5001F1709 /* Assets.xcassets in Resources */,
+				C8EDFB9523928475001F1709 /* FavoriteViewController.xib in Resources */,
 				C8EDFB701FD0147A001F1709 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +299,8 @@
 				C8EDFB861FD01B12001F1709 /* RepositoryModel.swift in Sources */,
 				C8EDFB901FD01BA3001F1709 /* UIKeyboardInfo.swift in Sources */,
 				C8EDFB8B1FD01B65001F1709 /* ApiSession.extension.swift in Sources */,
+				C8EDFB9823928519001F1709 /* RepositoryViewController.swift in Sources */,
+				C8EDFB9323928425001F1709 /* FavoriteViewController.swift in Sources */,
 				C8EDFB6D1FD0147A001F1709 /* ViewController.swift in Sources */,
 				C8EDFB8D1FD01B7D001F1709 /* NSObjectProtocol.extension.swift in Sources */,
 				C8EDFB881FD01B3C001F1709 /* SearchModel.swift in Sources */,
