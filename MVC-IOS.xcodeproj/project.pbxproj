@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,8 +11,8 @@
 		C8EDFB6B1FD0147A001F1709 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB6A1FD0147A001F1709 /* AppDelegate.swift */; };
 		C8EDFB6D1FD0147A001F1709 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB6C1FD0147A001F1709 /* ViewController.swift */; };
 		C8EDFB701FD0147A001F1709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB6E1FD0147A001F1709 /* Main.storyboard */; };
-		C8EDFB721FD0147C001F1709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB711FD0147C001F1709 /* Assets.xcassets */; };
-		C8EDFB751FD0147C001F1709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB731FD0147C001F1709 /* LaunchScreen.storyboard */; };
+		C8EDFB7E1FD018A5001F1709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB711FD0147C001F1709 /* Assets.xcassets */; };
+		C8EDFB801FD019B7001F1709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB731FD0147C001F1709 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,7 +54,6 @@
 				6329C7B8792EE6445413D1ED /* Pods-MVC-IOS.debug.xcconfig */,
 				19FA6C2F91231CDF13F539A2 /* Pods-MVC-IOS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -79,14 +78,30 @@
 		C8EDFB691FD0147A001F1709 /* MVC-IOS */ = {
 			isa = PBXGroup;
 			children = (
+				C8EDFB7D1FD01883001F1709 /* Source */,
+				C8EDFB7C1FD0187C001F1709 /* Resources */,
 				C8EDFB6A1FD0147A001F1709 /* AppDelegate.swift */,
 				C8EDFB6C1FD0147A001F1709 /* ViewController.swift */,
 				C8EDFB6E1FD0147A001F1709 /* Main.storyboard */,
+			);
+			path = "MVC-IOS";
+			sourceTree = "<group>";
+		};
+		C8EDFB7C1FD0187C001F1709 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				C8EDFB711FD0147C001F1709 /* Assets.xcassets */,
 				C8EDFB731FD0147C001F1709 /* LaunchScreen.storyboard */,
 				C8EDFB761FD0147C001F1709 /* Info.plist */,
 			);
-			path = "MVC-IOS";
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C8EDFB7D1FD01883001F1709 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +164,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C8EDFB751FD0147C001F1709 /* LaunchScreen.storyboard in Resources */,
-				C8EDFB721FD0147C001F1709 /* Assets.xcassets in Resources */,
+				C8EDFB801FD019B7001F1709 /* LaunchScreen.storyboard in Resources */,
+				C8EDFB7E1FD018A5001F1709 /* Assets.xcassets in Resources */,
 				C8EDFB701FD0147A001F1709 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,7 +368,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MVC-IOS/Info.plist";
+				INFOPLIST_FILE = "MVC-IOS/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -371,7 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "MVC-IOS/Info.plist";
+				INFOPLIST_FILE = "MVC-IOS/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
