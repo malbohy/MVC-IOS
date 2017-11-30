@@ -13,6 +13,12 @@
 		C8EDFB701FD0147A001F1709 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB6E1FD0147A001F1709 /* Main.storyboard */; };
 		C8EDFB7E1FD018A5001F1709 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB711FD0147C001F1709 /* Assets.xcassets */; };
 		C8EDFB801FD019B7001F1709 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB731FD0147C001F1709 /* LaunchScreen.storyboard */; };
+		C8EDFB841FD01AF2001F1709 /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB831FD01AF2001F1709 /* FavoriteModel.swift */; };
+		C8EDFB861FD01B12001F1709 /* RepositoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB851FD01B12001F1709 /* RepositoryModel.swift */; };
+		C8EDFB881FD01B3C001F1709 /* SearchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB871FD01B3C001F1709 /* SearchModel.swift */; };
+		C8EDFB8B1FD01B65001F1709 /* ApiSession.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB8A1FD01B65001F1709 /* ApiSession.extension.swift */; };
+		C8EDFB8D1FD01B7D001F1709 /* NSObjectProtocol.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB8C1FD01B7D001F1709 /* NSObjectProtocol.extension.swift */; };
+		C8EDFB901FD01BA3001F1709 /* UIKeyboardInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB8F1FD01BA3001F1709 /* UIKeyboardInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		C8EDFB711FD0147C001F1709 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8EDFB741FD0147C001F1709 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8EDFB761FD0147C001F1709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8EDFB831FD01AF2001F1709 /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		C8EDFB851FD01B12001F1709 /* RepositoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryModel.swift; sourceTree = "<group>"; };
+		C8EDFB871FD01B3C001F1709 /* SearchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchModel.swift; sourceTree = "<group>"; };
+		C8EDFB8A1FD01B65001F1709 /* ApiSession.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiSession.extension.swift; sourceTree = "<group>"; };
+		C8EDFB8C1FD01B7D001F1709 /* NSObjectProtocol.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectProtocol.extension.swift; sourceTree = "<group>"; };
+		C8EDFB8F1FD01BA3001F1709 /* UIKeyboardInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKeyboardInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +90,8 @@
 		C8EDFB691FD0147A001F1709 /* MVC-IOS */ = {
 			isa = PBXGroup;
 			children = (
-				C8EDFB7D1FD01883001F1709 /* Source */,
 				C8EDFB7C1FD0187C001F1709 /* Resources */,
-				C8EDFB6A1FD0147A001F1709 /* AppDelegate.swift */,
+				C8EDFB7D1FD01883001F1709 /* Source */,
 				C8EDFB6C1FD0147A001F1709 /* ViewController.swift */,
 				C8EDFB6E1FD0147A001F1709 /* Main.storyboard */,
 			);
@@ -100,8 +111,47 @@
 		C8EDFB7D1FD01883001F1709 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C8EDFB811FD01AC1001F1709 /* Common */,
+				C8EDFB821FD01AC8001F1709 /* UI */,
 			);
 			path = Source;
+			sourceTree = "<group>";
+		};
+		C8EDFB811FD01AC1001F1709 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFB8E1FD01B95001F1709 /* NotieObserver */,
+				C8EDFB891FD01B59001F1709 /* Extension */,
+				C8EDFB6A1FD0147A001F1709 /* AppDelegate.swift */,
+				C8EDFB831FD01AF2001F1709 /* FavoriteModel.swift */,
+				C8EDFB851FD01B12001F1709 /* RepositoryModel.swift */,
+				C8EDFB871FD01B3C001F1709 /* SearchModel.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C8EDFB821FD01AC8001F1709 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C8EDFB891FD01B59001F1709 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFB8A1FD01B65001F1709 /* ApiSession.extension.swift */,
+				C8EDFB8C1FD01B7D001F1709 /* NSObjectProtocol.extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		C8EDFB8E1FD01B95001F1709 /* NotieObserver */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFB8F1FD01BA3001F1709 /* UIKeyboardInfo.swift */,
+			);
+			path = NotieObserver;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8EDFB841FD01AF2001F1709 /* FavoriteModel.swift in Sources */,
+				C8EDFB861FD01B12001F1709 /* RepositoryModel.swift in Sources */,
+				C8EDFB901FD01BA3001F1709 /* UIKeyboardInfo.swift in Sources */,
+				C8EDFB8B1FD01B65001F1709 /* ApiSession.extension.swift in Sources */,
 				C8EDFB6D1FD0147A001F1709 /* ViewController.swift in Sources */,
+				C8EDFB8D1FD01B7D001F1709 /* NSObjectProtocol.extension.swift in Sources */,
+				C8EDFB881FD01B3C001F1709 /* SearchModel.swift in Sources */,
 				C8EDFB6B1FD0147A001F1709 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
