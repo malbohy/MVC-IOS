@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FavoriteViewController" customModule="MVC_IOS" customModuleProvider="target">
             <connections>
                 <outlet property="tableView" destination="v2i-j9-zcR" id="f19-Jg-6NE"/>
+                <outlet property="view" destination="mlj-XB-29G" id="tri-Gk-7Ek"/>
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>

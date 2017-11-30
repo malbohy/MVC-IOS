@@ -22,6 +22,12 @@
 		C8EDFB9323928425001F1709 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB9223928425001F1709 /* FavoriteViewController.swift */; };
 		C8EDFB9523928475001F1709 /* FavoriteViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB9423928475001F1709 /* FavoriteViewController.xib */; };
 		C8EDFB9823928519001F1709 /* RepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB9723928519001F1709 /* RepositoryViewController.swift */; };
+		C8EDFB9D23928519001F1709 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFB9C23928519001F1709 /* SearchViewController.swift */; };
+		C8EDFBA023928519001F1709 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFB9F23928519001F1709 /* LoadingView.xib */; };
+		C8EDFBA223928519001F1709 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFBA123928519001F1709 /* LoadingView.swift */; };
+		C8EDFBA523928519001F1709 /* UserRepositoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFBA423928519001F1709 /* UserRepositoryViewController.xib */; };
+		C8EDFBA723928519001F1709 /* UserRepositoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8EDFBA623928519001F1709 /* UserRepositoryViewController.swift */; };
+		C8EDFBA923928954001F1709 /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8EDFBA823928954001F1709 /* SearchViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +50,12 @@
 		C8EDFB9223928425001F1709 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
 		C8EDFB9423928475001F1709 /* FavoriteViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoriteViewController.xib; sourceTree = "<group>"; };
 		C8EDFB9723928519001F1709 /* RepositoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryViewController.swift; sourceTree = "<group>"; };
+		C8EDFB9C23928519001F1709 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		C8EDFB9F23928519001F1709 /* LoadingView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		C8EDFBA123928519001F1709 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		C8EDFBA423928519001F1709 /* UserRepositoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = UserRepositoryViewController.xib; sourceTree = "<group>"; };
+		C8EDFBA623928519001F1709 /* UserRepositoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepositoryViewController.swift; sourceTree = "<group>"; };
+		C8EDFBA823928954001F1709 /* SearchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +150,9 @@
 		C8EDFB821FD01AC8001F1709 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				C8EDFBA323928519001F1709 /* UserRepository */,
+				C8EDFB9E23928519001F1709 /* Common */,
+				C8EDFB9923928519001F1709 /* Search */,
 				C8EDFB9623928507001F1709 /* Repository */,
 				C8EDFB9123928414001F1709 /* Favorite */,
 				C8EDFB6E1FD0147A001F1709 /* Main.storyboard */,
@@ -177,6 +192,33 @@
 				C8EDFB9723928519001F1709 /* RepositoryViewController.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		C8EDFB9923928519001F1709 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFB9C23928519001F1709 /* SearchViewController.swift */,
+				C8EDFBA823928954001F1709 /* SearchViewController.xib */,
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		C8EDFB9E23928519001F1709 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFB9F23928519001F1709 /* LoadingView.xib */,
+				C8EDFBA123928519001F1709 /* LoadingView.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C8EDFBA323928519001F1709 /* UserRepository */ = {
+			isa = PBXGroup;
+			children = (
+				C8EDFBA423928519001F1709 /* UserRepositoryViewController.xib */,
+				C8EDFBA623928519001F1709 /* UserRepositoryViewController.swift */,
+			);
+			path = UserRepository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,7 +284,10 @@
 				C8EDFB801FD019B7001F1709 /* LaunchScreen.storyboard in Resources */,
 				C8EDFB7E1FD018A5001F1709 /* Assets.xcassets in Resources */,
 				C8EDFB9523928475001F1709 /* FavoriteViewController.xib in Resources */,
+				C8EDFBA023928519001F1709 /* LoadingView.xib in Resources */,
+				C8EDFBA523928519001F1709 /* UserRepositoryViewController.xib in Resources */,
 				C8EDFB701FD0147A001F1709 /* Main.storyboard in Resources */,
+				C8EDFBA923928954001F1709 /* SearchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,9 +341,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8EDFB841FD01AF2001F1709 /* FavoriteModel.swift in Sources */,
+				C8EDFB9D23928519001F1709 /* SearchViewController.swift in Sources */,
 				C8EDFB861FD01B12001F1709 /* RepositoryModel.swift in Sources */,
 				C8EDFB901FD01BA3001F1709 /* UIKeyboardInfo.swift in Sources */,
 				C8EDFB8B1FD01B65001F1709 /* ApiSession.extension.swift in Sources */,
+				C8EDFBA723928519001F1709 /* UserRepositoryViewController.swift in Sources */,
+				C8EDFBA223928519001F1709 /* LoadingView.swift in Sources */,
 				C8EDFB9823928519001F1709 /* RepositoryViewController.swift in Sources */,
 				C8EDFB9323928425001F1709 /* FavoriteViewController.swift in Sources */,
 				C8EDFB6D1FD0147A001F1709 /* ViewController.swift in Sources */,
